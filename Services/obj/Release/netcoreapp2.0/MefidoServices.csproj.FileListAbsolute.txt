@@ -1,0 +1,4 @@
+D:\Projects\Mefido\Code\MefidoServices\obj\Release\netcoreapp2.0\MefidoServices.csprojAssemblyReference.cache
+D:\Projects\Mefido\Code\MefidoServices\obj\Release\netcoreapp2.0\MefidoServices.AssemblyInfoInputs.cache
+D:\Projects\Mefido\Code\MefidoServices\obj\Release\netcoreapp2.0\MefidoServices.AssemblyInfo.cs
+D:\Projects\Mefido\Code\MefidoServices\obj\Release\netcoreapp2.0\MefidoServices.csproj.CoreCompileInputs.cache
