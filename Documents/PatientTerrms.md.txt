@@ -1,0 +1,122 @@
+
+ 
+Aster CMI, Bangalore
+ Rajesh Moorthy 
+Aster CMI, Bangalore Patient Terms of Use
+Back
+Aster DM Helathcare Limied (Aster) is a reputed hospital providing healthcare services to its patients, including online healthcare services to its registered patients through its web portal and mobile application . Usage of these applications to access these services are subject to the acceptance of these Terms of Use.
+
+If you do not agree to these Terms of Use and/or are not eligible or authorized to agree to these Terms of use, then you are not authorized to use the applications and services supported by Aster. By using this application, you are accepting these Terms of Use and are legally bound by all terms in this Terms of Use agreement.
+
+1. User Accounts
+
+As a registered patient of Aster you can access your patient user account and applicable services, using the user account details provided by Aster . Patients who choose to self-register through the patient portal or patient mobile application will need to wait until their registration is confirmed by Aster, before their account is active. By registering, you agree that:
+
+You are not impersonating any other person and are using your actual identity.
+Your registration is subject to verification and confirmation by Aster and your patient user account will be activated only after confirmation.
+The personal information provided during the registration process is true, accurate, current and complete. You are required to periodically review and update your registration data to ensure that it is always accurate and correct.
+Your username and password are unique to you, and you agree not to disclose or share your username and password to or with any third party. You are responsible for keeping your password confidential and for notifying us immediately if your password has been hacked or stolen.
+You also agree that you will be solely responsible for any activities conducted on or through the patient portal and/or mobile application with your account regardless of whether or not you are the individual who undertakes such activities. This includes any unauthorized access and/or use of your account or your computer. You hereby release and hold harmless Aster from any and all claims and causes of action arising out of or resulting from a third party's unauthorized use of your account.
+Aster reserves the right to deny or revoke access to any user account at its sole discretion without any notice.
+This application is only a tool to allow patients of Aster to collaborate in their own healthcare, use scheduling and communication services and to access their personal health record maintained by Aster.
+All engagement between Aster and you through this application are governed by these Patient Terms.
+As a user of services through the patient portal and/or mobile application of Aster you agree to receive essential service related notifications in the form of SMS, email or mobile notifications. Notification settings to turn off non-essential notifications are available.
+You shall not use any service or information in this application for any purposes other than managing your personal health information or that of your immediate family members (with due authorization) and/or to engage with healthcare providers of Aster.
+You are expected to avail of immediate professional medical attention in medical emergencies or critical care situations and not attempt to use the application to access your healthcare provider. The services enabled by the application is only meant to supplement your existing healthcare services and to enable you to collaborate better with your own healthcare providers, as decided by them.
+Being an online application, there might be unforeseeable network and infrastructure issues in which case the application will not be available until the issue is rectified. Under such circumstances please directly contact Aster Hospital in person for any services you may need. Aster is not liable for any periods of non-availability of this application.
+Aster will make all possible efforts to provide you the best healthcare services. However, Aster shall not incur any liability and shall declare any service guarantee void in the event the user is in breach of any of the Terms and Conditions of this Agreement
+Both parties are at liberty to terminate this agreement. Terminating the agreement will cancel only your user accounts in the web and mobile applications of Aster. It does not terminate nor impact any other consultations or patient-provider relationship that you have with Aster.
+2. Data
+
+The application stores data, including PHI data, communications, usage data including but not limited to location, device type, operating system, browser, date-time and context usage, in Information Technology Act & Rules, HIPAA and GDPR compliant cloud infrastructure on Amazon Web services. All data storage and transmissions are encrypted.
+All your personal health data and usage data is owned by Aster irrespective of the access you may or may not have to it. Your usage and access to your data is defined by Aster
+The accuracy, integrity and completeness of the personal health information you enter or allow to enter on your behalf is your responsibility, and Aster assumes no liability for it.
+Data in your personal health records will be accessible to and modifiable by authorised healthcare providers of Aster , for the purpose of providing you with healthcare services.
+Non- personalised system analysis of non-identifiable patient data may be done to enable better healthcare outcomes for the patients of Aster . However the identity of individual users will remain completely anonymous in such analysis.
+All user data is covered by the Privacy Policy of Aster.
+3. Remote Monitoring Services
+
+Our Remote Monitoring packages are only for communicating specific health parameters to the healthcare providers in Aster's patient portal and mobile applications and will not substitute actual clinical visits. You are required to visit the healthcare provider as and when specified by your doctor and whenever you need healthcare.
+
+If the monitoring feedback provided by the healthcare provider is substantially different from your current treatment and prescribed medication, it is your duty to confirm the same before implementing the advice.
+The health information, vital sign readings, dates, timings and notes logged in by you or on your behalf should be accurate.
+As a patient of Aster, you are required to inform your healthcare provider of all current and previous illnesses, health conditions, surgeries, consultations and medications with any other healthcare providers. While our healthcare team may help to update your PHR based on mutual agreement, it is your responsibility to update all aspects of the PHR completely and correctly.
+For efficient monitoring and proper healthcare services, the patient is required to enter all vital health data through the system as per the schedule and level of detail advised by the doctor.
+For self-monitored readings, it is the patient's responsibility to use devices of proper quality and to ensure that they are re-calibrated when required.
+The healthcare team of the healthcare provider will consist of qualified healthcare professionals. The monitoring and feedback will be handled by any qualified member of the healthcare monitoring team.
+The healthcare provider will monitor your vitals at the intervals specified in your package. Not following the instructions of the healthcare team will be considered as non-compliance of the agreement and the agreement will be terminated.
+The healthcare team will provide instructions based on the vitals entered by you. You are advised to enter the vitals accurately.
+Aster will not assume any legal responsibility for the patient's medical condition and this online consultation only intends to aid in understanding the condition better based on the information given and is not meant to replace an in-person consultation
+The online system is expected to enhance, not replace clinic visits. It is your responsibility to schedule follow-up appointments as indicated by your doctor.
+The patient is free to discontinue using a Remote Monitoring plan at any time, with the knowledge of your consulting healthcare provider.
+The healthcare provider does not attend to Emergencies through this application. Under these circumstances, the patient has to contact the nearest hospital immediately.
+Aster may provide one or more Remote Monitoring plans. When signing up for or after being assigned to any such Remote Monitoring package, it is the duty of the patient to understand the instructions and terms of that package and to fulfil them.
+The patient data will be kept confidential by Aster and will not be disclosed to anyone under normal circumstances except as requested by law or in an emergency situation when requested by another healthcare provider.
+4. Video Consultations
+
+Video Consultation Appointment Timing: While the patient may specify the preferred appointment timing for a Video Consultation, Aster reserves the right to reschedule the appointment for an alternative timing. If this timing is not convenient, the user can request that it be rescheduled. Due to unpredictable medical emergencies, it may be that the Aster's healthcare provider is sometimes unable to attend to the video consultation exactly at the appointed time. In such cases the session might be rescheduled to a later time in consultation with the patient.
+Video Consultation Duration: By default the average duration of a Video Consultation will be the duration decided by the Aster's healthcare Provider Aster reserves the right to decide when the consultation ends. This could be earlier than the maximum possible duration. If the Aster's healthcare provider has to be conclude the video consultation mid-way due to a medical emergency, then a new session at an alternative timing will be scheduled.
+Video Session Quality: The quality of the video session depends on the quality of the Internet connection, web cam and audio facilities of both the patient and Aster. It is the responsibility of the patient to ensure that the performance and quality of the equipment and connection used, are optimal for doing video calls online. Video Consultations that fail on account of poor equipment and connectivity will not be rescheduled for free and there shall be no refund of any payment made by you.
+Video Session Privacy, Security & Etiquette: It is required that the patient prepares ahead of time to participate in the Video Consultation, in a quiet and private place, where only the patient is present in the room where the video session is being held. For elderly or disabled patients who require help to participate in the video, a caregiver may be present. There must be no audio/video recording of the video session by the patient. It is necessary that the patient (and any caregiver) act with proper decorum in speech and action during the video consultation. Failure to comply with these requirements can result in termination of the video session with no refund or rescheduling of the consultation.
+Nature of Consultation: Video Consultations must not be scheduled for patients with critical medical conditions and/or for emergencies. Such consultations are suitable only for basic follow-ups between the patient and healthcare provider and/or preliminary consultation before meeting the healthcare provider in person.
+5. Text or Question Based Consultations
+
+Every attempt will be made to provide responses to your questions within the stipulated response time. However do not under any circumstances, delay seeking direct medical attention from your healthcare provider or nearest hospital.
+Asking medical questions to a healthcare provider, whom you have not been consulting directly, does not necessarily result in establishing a doctor-patient relationship. Any response from the healthcare provider only constitutes helpful information which must be verified with your own doctor.
+Do not change any medication, treatment regimen or other healthcare measures without confirmation from your own healthcare provider. Any advice or information in responses to your questions/text consultations to healthcare providers of Aster, do not qualify as a medical prescription, diagnosis or treatment plan.
+In the case of any emergency, always contact your own healthcare provider and go to the nearest hospital or healthcare provider.
+Aster is not liable for any healthcare issues related to the questions raised. Information provided at the time of asking a question must be accurate and complete. This is only to ensure that the response provided is helpful to the patient and does not involve a liability on part of Aster.
+Response time for a question is indicative of only the initial response to the question and does not include the time for responding to follow-up notes. Each follow-up should be expected to require the same response time as the initial question.
+Payments for this service are covered by the payment terms for services through the patient portal and mobile application.
+6.Payments
+
+All consultation fees for services through the mobile and web application interfaces of Aster have to be paid as per the terms of the service that you use. Offline payment collection for some of these services is supported too. Please contact Aster about this during your next in-person visit.
+In course of time, Aster may introduce other services in the system, the charges for which will be communicated to you as and when such services are introduced.
+The Aster reserves the right to revise the consultation and service charges at any time, at the sole discretion of the Aster. The charge applicable at any given time, will be the charge displayed at the time of using the service.
+Payments made for any remote monitoring plans will not be refunded should you decide to discontinue.
+7. Privacy Policy
+
+Data in this application of Aster can be created by your healthcare providers at Aster and by yourself (the patient) after logging into the application with your authorized user account. Information that is collected as you use our web patient portal and mobile application includes the following:
+
+Personal information: Personal information includes name and email address that you provide at signup. It also includes phone number, address and other personally identifiable information that you may choose to add to your user account profile. No payment method information is stored by this application.
+Personal Health Information: Personal health information about patients users, that patient users themselves or authorized employees of Aster enter into the Personal Health Record of a patient, including age, gender, known health conditions, medications, allergies, vaccinations, history of surgeries or procedures, goals, health journal entries and data that you enter into your health trackers either manually or by syncing with a health monitoring device or from a third party source that you alone authorize. It also includes medical reports and files that you choose to upload into your health profile.
+Operations Data: In order to enhance your usage experience, the application uses cookies, server logs and other similar mechanisms to enable certain functionality, improve services and monitor service usage. These mechanisms are used to save user preferences, preserve session settings, help auto-authentication of frequently used services if required by your settings and to enable other similar functional requirements. You may use browser settings to disable cookies when using our web services, however it may result in some of the features and services of this application not functioning properly.
+8. Use of Information
+
+The personal and health information added through this application, through use of its services by patients and healthcare providers of Aster will not be shared, disclosed or displayed to anyone other than authorized employees of Aster. They will be able to update personal health information of their own patients by updated the patient health profile, uploading medical reports, adding review notes, health goals, monitoring feedback relevant as part of the consultation services used by the patients.
+
+Aster is fully authorized to terminate patient user accounts at any time and such patients will no longer have further access to their personal health information stored in the application storage in event of that happening. Whether or not to share that information with the patient user before termination of the patient user account is the prerogative of Aster.
+
+Contact Information: The services platform will send you communications (email and other notifications), as per your notification settings, as part of essential functioning of services that you may avail, such as appointment booking information, alerts related to reviews and consultations by Aster healthcare providers. At time of registration you will be required to verify your email address. Your contact information may also be used for customer support services, should you choose to avail of them. In addition, we may use your contact information to provide you with information about our services. If you decide at any time that you no longer wish to receive such information or communications from us, please change applicable notification settings in your account. Your contact information is not shared with any third-party.
+
+Anonymized data: Aster may analyze anonymized and aggregated collected through the services, for purposes of evaluating healthcare outcomes, healthcare requirement patterns and to measure the effectiveness of services and content. Such anonymized and aggregated information is not considered as personal information.
+
+You are responsible for maintaining the confidentiality of your password and account information. You are responsible for all activities that occur in your account and you agree to notify Aster immediately of any unauthorized use of your account. Aster is in no way responsible for any loss that you may incur as a result of any unauthorized use of your user account and password.
+
+9. Disclosure of Information
+
+We may disclose any information to government or law enforcement officials if we believe doing so is required to comply with law enforcement and legal process; to prevent or stop any illegal, unethical, or legally actionable activity; to protect your, our or others rights and safety.
+
+We may disclose your personal information on your own request accompanied by your permission.
+
+Aster does however reserve the right to deactivate or delete accounts of any user found to be in violation of our Terms of Use.
+
+10. Transmission and Storage Security
+
+All data is stored only in the servers of our technology vendor on the highly secure Amazon Web Service platform. Necessary measures in providing secure transmission of personal health information before it is transferred across the Internet from your personal computer or devices are ensured. However, you should be aware of possible risk involved in transmitting information over the Internet as no data transmission can be guaranteed to be 100% secure and of risk that others could find a way to thwart our security systems. As a result, while we strive to protect your personal information, we cannot ensure or warrant the security and privacy of personal information you transmit to us, and you do so at your own risk.
+
+11. Restriction on the basis of age
+
+All users of the patient portal and mobile app of Aster are expected to be above 18 years of age. Parents, caregivers/guardians and healthcare providers are allowed to provide and store personal information about others, including minors and children. Any user providing, storing or submitting information on behalf of a child/person under guardianship assumes full responsibility over the submission, use, and transmission of such information.
+
+12. Changes to this Policy
+
+Please note that this Privacy Policy may change from time to time as we continue to offer evolve our services. In the event of any changes in our Privacy Policy, the updated version will be posted here and take effect from the moment of posting.
+
+The above mentioned terms are applicable as long as you are a registered patient of Aster using Aster's web patient portal and mobile application.
+
+DISPUTES
+
+The Parties (i.e.. yourself/patient and Aster) shall amicably resolve any and all disputes arising out of or in connection with Terms of Use in respect to the online healthcare services provided by Aster, failing which the disputes shall be settled by Sole Arbitrator in accordance with the provisions of the Arbitration and Conciliation Act, 1996.. The seat and venue for arbitration shall be, exclusively, at Bengaluru, Karnataka and the language for arbitration shall be English. The arbitration award shall be final and binding and shall be enforceable in any court of law having jurisdiction.
+
+Patient Terms

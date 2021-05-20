@@ -1,4 +1,4 @@
-package com.example.mefido
+package com.pratech.mefido
 
 import io.flutter.embedding.android.FlutterActivity
 

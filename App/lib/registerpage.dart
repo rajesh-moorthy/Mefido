@@ -124,8 +124,9 @@ class _RegisterState extends State<RegisterPage> {
                 Container(
                   padding: EdgeInsets.only(left: 5.0, right: 5.0),
                   decoration: BoxDecoration(
-                      border: Border.all(color: Colors.grey),
-                      borderRadius: BorderRadius.circular(3.0)),
+                      border: Border.all(
+                          color: Colors.grey, style: BorderStyle.solid),
+                      borderRadius: BorderRadius.circular(20.0)),
                   child: DropdownButton<String>(
                     value: dropdownValue,
                     isExpanded: true,
