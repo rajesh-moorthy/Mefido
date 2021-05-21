@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:mefido/casenotes.dart';
+import 'package:mefido/viewPrescriptionpage.dart';
 
 class DashboardPage extends StatefulWidget {
   @override
@@ -50,9 +51,105 @@ class _DashboardPageState extends State<DashboardPage> {
         child: SafeArea(
             child: Scaffold(
           appBar: AppBar(
-            title: Text('Mefido'),
+            title: Text(
+              "Mefido",
+              style: TextStyle(fontSize: 18, color: Colors.white70),
+            ),
+            elevation: 10,
+            backgroundColor: Colors.blue,
+            actions: [
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Icon(Icons.search),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Icon(Icons.notifications),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Icon(Icons.more_vert),
+              ),
+            ],
           ),
-          body: Center(child: Text('My Page!')),
+          body: Padding(
+            padding: EdgeInsets.all(10),
+            child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                    color: Colors.grey.shade300,
+                    width: 2,
+                  ),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: ListView(
+                  children: <Widget>[
+                    Container(
+                        child: Row(
+                      children: <Widget>[
+                        Expanded(
+                            child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: ElevatedButton(
+                            style: ButtonStyle(
+                                shape: MaterialStateProperty.all<
+                                        RoundedRectangleBorder>(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(20.0),
+                                        side: BorderSide(color: Colors.red)))),
+                            // textcolor: colors.white,
+                            // color: colors.blue,
+                            child: Text('Search Patient'),
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => DashboardPage()),
+                              );
+                              // print(nameController.text);
+                              // print(passwordController.text);
+                            },
+                          ),
+                        )),
+                        Expanded(
+                            child: Padding(
+                                padding: const EdgeInsets.all(16.0),
+                                child: ElevatedButton(
+                                  style: ButtonStyle(
+                                      shape: MaterialStateProperty.all<
+                                              RoundedRectangleBorder>(
+                                          RoundedRectangleBorder(
+                                              borderRadius:
+                                                  BorderRadius.circular(20.0),
+                                              side: BorderSide(
+                                                  color: Colors.red)))),
+                                  // textcolor: colors.white,
+                                  // color: colors.blue,
+                                  child: Text('Create Patient'),
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              DashboardPage()),
+                                    );
+                                    // print(nameController.text);
+                                    // print(passwordController.text);
+                                  },
+                                )))
+                      ],
+                      mainAxisAlignment: MainAxisAlignment.center,
+                    )),
+                    Container(
+                        child: Divider(
+                      color: Colors.grey,
+                      thickness: 1.5,
+                    ))
+                  ],
+                )),
+          ),
           drawer: Drawer(
             child: ListView(
                 // Important: Remove any padding from the ListView.
@@ -122,8 +219,22 @@ class _DashboardPageState extends State<DashboardPage> {
                     },
                   ),
                   ListTile(
-                    leading: Icon(Icons.alarm_rounded),
-                    title: Text('Medicine Alarm'),
+                    leading: Icon(FontAwesomeIcons.prescription),
+                    title: Text('Prescription'),
+                    onTap: () {
+                      // Update the state of the app
+                      // ...
+                      // Then close the drawer
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => PrescriptionPage()),
+                      );
+                    },
+                  ),
+                  ListTile(
+                    leading: Icon(FontAwesomeIcons.prescription),
+                    title: Text('View Prescription'),
                     onTap: () {
                       // Update the state of the app
                       // ...
@@ -132,8 +243,8 @@ class _DashboardPageState extends State<DashboardPage> {
                     },
                   ),
                   ListTile(
-                    leading: Icon(FontAwesomeIcons.prescription),
-                    title: Text('Prescription'),
+                    leading: Icon(Icons.alarm_rounded),
+                    title: Text('Medicine Alarm'),
                     onTap: () {
                       // Update the state of the app
                       // ...
