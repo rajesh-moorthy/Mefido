@@ -146,6 +146,16 @@ class _DashboardPageState extends State<DashboardPage> {
                         child: Divider(
                       color: Colors.grey,
                       thickness: 1.5,
+                    )),
+                    Container(
+                      child: Text(
+                        'Lined Appointments',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    Container(
+                        child: Row(
+                      children: <Widget>[],
                     ))
                   ],
                 )),

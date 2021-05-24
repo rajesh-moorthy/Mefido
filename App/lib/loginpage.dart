@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mefido/dashboardpage.dart';
-import 'package:mefido/registerpage.dart';
+import 'package:mefido/registerpatientpage.dart';
 import 'package:mefido/forgotpasswordpage.dart';
 
 class LoginPage extends StatefulWidget {
@@ -40,19 +40,13 @@ class _LoginState extends State<LoginPage> {
                         alignment: Alignment.center,
                         padding: EdgeInsets.all(10),
                         child: Text(
-                          'Mefido',
+                          'Mefido - Sign in',
                           style: TextStyle(
                               color: Colors.blue,
                               fontWeight: FontWeight.w500,
                               fontSize: 30),
                         )),
-                    Container(
-                        alignment: Alignment.center,
-                        padding: EdgeInsets.all(10),
-                        child: Text(
-                          'Sign in',
-                          style: TextStyle(fontSize: 20),
-                        )),
+
                     Container(
                       padding: EdgeInsets.all(10),
                       child: TextField(
@@ -137,28 +131,78 @@ class _LoginState extends State<LoginPage> {
                           },
                         )),
                     Container(
-                        child: Row(
-                      children: <Widget>[
-                        Text('Does not have account?'),
-                        // flatbutton(
-                        TextButton(
-                          // textColor: Colors.blue,
-                          child: Text(
-                            'Sign Up',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                          onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => RegisterPage()),
-                            );
-                            //signup screen
-                          },
-                        )
-                      ],
-                      mainAxisAlignment: MainAxisAlignment.center,
-                    ))
+                        child: Text(
+                      "Don't have account? Sign up as a",
+                      textAlign: TextAlign.center,
+                    )),
+                    // flatbutton(
+                    Container(
+                        child: Row(children: <Widget>[
+                      Expanded(
+                          child: TextButton(
+                        // textColor: Colors.blue,
+                        child: Text(
+                          'Patient',
+                          style: TextStyle(fontSize: 15),
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => RegisterPage()),
+                          );
+                          //signup screen
+                        },
+                      )),
+                      Expanded(
+                          child: TextButton(
+                        // textColor: Colors.blue,
+                        child: Text(
+                          'Hospital',
+                          style: TextStyle(fontSize: 15),
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => RegisterPage()),
+                          );
+                          //signup screen
+                        },
+                      )),
+                      Expanded(
+                          child: TextButton(
+                        // textColor: Colors.blue,
+                        child: Text(
+                          'Doctor',
+                          style: TextStyle(fontSize: 15),
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => RegisterPage()),
+                          );
+                          //signup screen
+                        },
+                      )),
+                      Expanded(
+                          child: TextButton(
+                        // textColor: Colors.blue,
+                        child: Text(
+                          ' Service Provider',
+                          style: TextStyle(fontSize: 15),
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => RegisterPage()),
+                          );
+                          //signup screen
+                        },
+                      )),
+                    ]))
                   ],
                 ))));
   }

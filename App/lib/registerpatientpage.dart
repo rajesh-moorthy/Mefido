@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:intl/intl.dart';
+// import 'package:intl/intl_browser.dart';
 
 class RegisterPage extends StatefulWidget {
   @override
@@ -8,13 +10,18 @@ class RegisterPage extends StatefulWidget {
 
 class _RegisterState extends State<RegisterPage> {
   DateTime date = DateTime.now();
-  String dropdownValue = 'Male';
+  String gendervalue = 'Male';
 
   TextEditingController nameController = TextEditingController();
+  TextEditingController fathusbController = TextEditingController();
+  TextEditingController dateofbirthController = TextEditingController();
+  TextEditingController ageController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-  TextEditingController dateofbirthcontroller = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
+    double deviceWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
         appBar: AppBar(
           title: Text('Mefido - SignUp'),
@@ -30,6 +37,7 @@ class _RegisterState extends State<RegisterPage> {
                       'Sign Up',
                       style: TextStyle(fontSize: 14),
                     )),
+                //Patient Name
                 Container(
                   padding: EdgeInsets.all(10),
                   child: TextField(
@@ -38,106 +46,113 @@ class _RegisterState extends State<RegisterPage> {
                     keyboardType: TextInputType.text,
                     decoration: InputDecoration(
                       hintText: 'Patient Name',
-                      hintStyle: TextStyle(fontSize: 16),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
+                      hintStyle: TextStyle(color: Colors.grey, fontSize: 16),
+                      border: UnderlineInputBorder(
+                        // borderRadius: BorderRadius.circular(20),
                         borderSide: BorderSide(
                           width: 1,
                           style: BorderStyle.none,
                         ),
                       ),
-                      filled: true,
-                      contentPadding: EdgeInsets.all(16),
+                      contentPadding: EdgeInsets.all(5),
                     ),
                   ),
                 ),
+                //FAther / Husband Name
                 Container(
                   padding: EdgeInsets.all(10),
                   child: TextField(
                     textAlign: TextAlign.left,
-                    controller: nameController,
+                    controller: fathusbController,
                     keyboardType: TextInputType.text,
                     decoration: InputDecoration(
                       hintText: 'Father / Husband Name',
-                      hintStyle: TextStyle(fontSize: 16),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
+                      hintStyle: TextStyle(color: Colors.grey, fontSize: 16),
+                      border: UnderlineInputBorder(
+                        // borderRadius: BorderRadius.circular(20),
                         borderSide: BorderSide(
                           width: 1,
                           style: BorderStyle.none,
                         ),
                       ),
-                      filled: true,
-                      contentPadding: EdgeInsets.all(16),
+                      contentPadding: EdgeInsets.all(5),
                     ),
                   ),
                 ),
+                //Birth date and Age
                 Container(
-                    padding: EdgeInsets.all(10),
-                    child: TextField(
-                      readOnly: true,
-                      controller: dateofbirthcontroller,
-                      decoration: InputDecoration(
-                        hintText: 'Date Of Birth',
-                        hintStyle: TextStyle(fontSize: 16),
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(20),
-                          borderSide: BorderSide(
-                            width: 1,
-                            style: BorderStyle.none,
+                    child: Row(children: <Widget>[
+                  Expanded(
+                    flex: 7,
+                    child: Container(
+                      padding: EdgeInsets.all(10),
+                      child: TextField(
+                        textAlign: TextAlign.left,
+                        controller: dateofbirthController,
+                        keyboardType: TextInputType.text,
+                        decoration: InputDecoration(
+                          hintText: 'Date of Birth',
+                          hintStyle:
+                              TextStyle(color: Colors.grey, fontSize: 16),
+                          border: UnderlineInputBorder(
+                            // borderRadius: BorderRadius.circular(20),
+                            borderSide: BorderSide(
+                              width: 1,
+                              style: BorderStyle.none,
+                            ),
                           ),
+                          contentPadding: EdgeInsets.all(5),
                         ),
-                        filled: true,
-                        contentPadding: EdgeInsets.all(16),
+                        onTap: () async {
+                          var date = await showDatePicker(
+                              context: context,
+                              initialDate: DateTime.now(),
+                              firstDate: DateTime(1900),
+                              lastDate: DateTime(2100));
+                          final format = new DateFormat('dd-MMM-yyyy');
+                          dateofbirthController.text = format.format(date);
+                        },
                       ),
-                      onTap: () async {
-                        var date = await showDatePicker(
-                            context: context,
-                            initialDate: DateTime.now(),
-                            firstDate: DateTime(1900),
-                            lastDate: DateTime(2100));
-                        dateofbirthcontroller.text =
-                            date.toString().substring(0, 10);
-                      },
-                    )),
-                Container(
-                  padding: EdgeInsets.all(10),
-                  child: TextField(
-                    textAlign: TextAlign.left,
-                    controller: nameController,
-                    keyboardType: TextInputType.text,
-                    decoration: InputDecoration(
-                      hintText: 'Age',
-                      hintStyle: TextStyle(fontSize: 16),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
-                        borderSide: BorderSide(
-                          width: 1,
-                          style: BorderStyle.none,
-                        ),
-                      ),
-                      filled: true,
-                      contentPadding: EdgeInsets.all(16),
                     ),
                   ),
-                ),
+                  Expanded(
+                    flex: 3,
+                    child: Container(
+                      padding: EdgeInsets.all(10),
+                      child: TextField(
+                        textAlign: TextAlign.left,
+                        controller: ageController,
+                        keyboardType: TextInputType.text,
+                        decoration: InputDecoration(
+                          hintText: 'Age',
+                          hintStyle:
+                              TextStyle(color: Colors.grey, fontSize: 16),
+                          border: UnderlineInputBorder(
+                            // borderRadius: BorderRadius.circular(20),
+                            borderSide: BorderSide(
+                              width: 1,
+                              style: BorderStyle.none,
+                            ),
+                          ),
+                          contentPadding: EdgeInsets.all(5),
+                        ),
+                      ),
+                    ),
+                  )
+                ])),
                 Container(
-                  padding: EdgeInsets.only(left: 5.0, right: 5.0),
-                  decoration: BoxDecoration(
-                      border: Border.all(
-                          color: Colors.grey, style: BorderStyle.solid),
-                      borderRadius: BorderRadius.circular(20.0)),
+                  padding: const EdgeInsets.all(8),
+                  width: deviceWidth * 0.50,
                   child: DropdownButton<String>(
-                    value: dropdownValue,
+                    value: gendervalue,
                     isExpanded: true,
                     icon: Icon(Icons.keyboard_arrow_down, size: 22),
-                    underline: SizedBox(),
-                    items: <String>[
-                      'Male',
-                      'Female',
-                      'Others',
-                      'Do not Wish to Specify'
-                    ].map((String value) {
+                    underline: Container(
+                      height: 2,
+                      color: Colors.grey.shade400,
+                    ),
+                    items: <String>['Select', 'Male', 'Female', 'Others']
+                        .map((String value) {
                       return new DropdownMenuItem<String>(
                         value: value,
                         child: new Text(value),
@@ -146,7 +161,7 @@ class _RegisterState extends State<RegisterPage> {
                     onChanged: (value) {
                       //Do something with this value
                       setState(() {
-                        dropdownValue = value;
+                        gendervalue = value;
                       });
                     },
                   ),
@@ -159,16 +174,15 @@ class _RegisterState extends State<RegisterPage> {
                     keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                       hintText: 'Email',
-                      hintStyle: TextStyle(fontSize: 16),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
+                      hintStyle: TextStyle(color: Colors.grey, fontSize: 16),
+                      border: UnderlineInputBorder(
+                        // borderRadius: BorderRadius.circular(20),
                         borderSide: BorderSide(
                           width: 1,
                           style: BorderStyle.none,
                         ),
                       ),
-                      filled: true,
-                      contentPadding: EdgeInsets.all(16),
+                      contentPadding: EdgeInsets.all(5),
                     ),
                   ),
                 ),
@@ -180,16 +194,15 @@ class _RegisterState extends State<RegisterPage> {
                     keyboardType: TextInputType.text,
                     decoration: InputDecoration(
                       hintText: 'Password',
-                      hintStyle: TextStyle(fontSize: 16),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
+                      hintStyle: TextStyle(color: Colors.grey, fontSize: 16),
+                      border: UnderlineInputBorder(
+                        // borderRadius: BorderRadius.circular(20),
                         borderSide: BorderSide(
                           width: 1,
                           style: BorderStyle.none,
                         ),
                       ),
-                      filled: true,
-                      contentPadding: EdgeInsets.all(16),
+                      contentPadding: EdgeInsets.all(5),
                     ),
                   ),
                 ),
@@ -201,24 +214,17 @@ class _RegisterState extends State<RegisterPage> {
                     keyboardType: TextInputType.text,
                     decoration: InputDecoration(
                       hintText: 'Confirm Password',
-                      hintStyle: TextStyle(fontSize: 16),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
+                      hintStyle: TextStyle(color: Colors.grey, fontSize: 16),
+                      border: UnderlineInputBorder(
+                        // borderRadius: BorderRadius.circular(20),
                         borderSide: BorderSide(
                           width: 1,
                           style: BorderStyle.none,
                         ),
                       ),
-                      filled: true,
-                      contentPadding: EdgeInsets.all(16),
+                      contentPadding: EdgeInsets.all(5),
                     ),
                   ),
-                ),
-                TextButton(
-                  onPressed: () {
-                    //forgot password screen
-                  },
-                  child: Text('Forgot Password'),
                 ),
                 Container(
                     height: 50,
@@ -233,30 +239,12 @@ class _RegisterState extends State<RegisterPage> {
                                       side: BorderSide(color: Colors.red)))),
                       // textcolor: colors.white,
                       // color: colors.blue,
-                      child: Text('Sign Up'),
+                      child: Text('Patient Sign Up'),
                       onPressed: () {
                         print(nameController.text);
                         print(passwordController.text);
                       },
                     )),
-                Container(
-                    child: Row(
-                  children: <Widget>[
-                    Text('Does not have account?'),
-                    // flatbutton(
-                    TextButton(
-                      // textColor: Colors.blue,
-                      child: Text(
-                        'Sign Up',
-                        style: TextStyle(fontSize: 20),
-                      ),
-                      onPressed: () {
-                        //signup screen
-                      },
-                    )
-                  ],
-                  mainAxisAlignment: MainAxisAlignment.center,
-                ))
               ],
             )));
   }
