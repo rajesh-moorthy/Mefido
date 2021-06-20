@@ -33,7 +33,8 @@ namespace MefidoServices.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=mefido.giftwinner.co.in;Database=MefidoDoc;User Id=mefidoc;Password=mefidoc2019;");
+                //optionsBuilder.UseSqlServer("Server=mefido.giftwinner.co.in;Database=MefidoDoc;User Id=mefidoc;Password=mefidoc2019;");
+                optionsBuilder.UseSqlServer("Server=RAJESH-S-140-LE;Database=MefidoDoc;User Id=Rajesh;Password=Rajesh@1234!;");
             }
         }
 
@@ -152,26 +153,16 @@ namespace MefidoServices.Models
                     .HasMaxLength(2000)
                     .IsUnicode(false);
 
-                entity.Property(e => e.CountryCode)
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                 
 
                 entity.Property(e => e.PostalCode)
                     .IsRequired()
                     .HasMaxLength(2000)
                     .IsUnicode(false);
 
-                entity.Property(e => e.State)
-                    .IsRequired()
-                    .HasMaxLength(2000)
-                    .IsUnicode(false);
+               
 
-                entity.Property(e => e.StateID)
-                    .IsRequired()
-                    .HasColumnName("StateID")
-                    .HasMaxLength(2000)
-                    .IsUnicode(false);
+              
 
                 entity.Property(e => e.Town)
                     .IsRequired()
@@ -304,11 +295,7 @@ namespace MefidoServices.Models
                     .HasMaxLength(60)
                     .IsUnicode(false);
 
-                entity.Property(e => e.MiddleName)
-                    .HasMaxLength(60)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.MobileNumber)
+                               entity.Property(e => e.MobileNumber)
                     .IsRequired()
                     .HasMaxLength(10)
                     .IsUnicode(false);

@@ -203,7 +203,7 @@ class _PrescriptionPageState extends State<PrescriptionPage> {
                           "Medicine",
                           textScaleFactor: 1.5,
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: 10,
                             fontWeight: FontWeight.bold,
                           ),
                           textAlign: TextAlign.center,
@@ -212,7 +212,7 @@ class _PrescriptionPageState extends State<PrescriptionPage> {
                           "Dosage",
                           textScaleFactor: 1.5,
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: 10,
                             fontWeight: FontWeight.bold,
                           ),
                           textAlign: TextAlign.center,
@@ -221,7 +221,7 @@ class _PrescriptionPageState extends State<PrescriptionPage> {
                           "Quantity",
                           textScaleFactor: 1.5,
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: 10,
                             fontWeight: FontWeight.bold,
                           ),
                           textAlign: TextAlign.center,

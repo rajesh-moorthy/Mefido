@@ -31,12 +31,12 @@ namespace MefidoServices.Controllers
         }
 
         [HttpGet("api/GetActiveTownsByState/{stateId}")]
-        public List<City> GetActiveTownsByState(string stateId)
+        public List<City> GetActiveTownsByState(int stateId)
         {
             try
             {
                 var dbContext = new MefidoContext();
-                var town = dbContext.City.Where(u => u.Active == "Y" && u.StateID == stateId);
+                var town = dbContext.City.Where(u => u.Active == "Y" && u.StateId == stateId);
                 return town.ToList();
             }
             catch (Exception ex)

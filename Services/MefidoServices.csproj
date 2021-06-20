@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<LangVersion>latest</LangVersion>
-  <AspNetCoreModuleName>AspNetCoreModule</AspNetCoreModuleName>
+  <AspNetCoreModuleName>AspNetCoreModuleV2</AspNetCoreModuleName>
   <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
     <UserSecretsId>3671900a-0b22-43b9-817f-0f18b3719b78</UserSecretsId>
   </PropertyGroup>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l7oHYhYKzww/i3CbFTRCMZmfNnJRTZadbB9M7OKFbuf/o9RIt6vC0wDyjyvZW+qISYVHJyRVHz/JGAy13T9KPw==",
+  "dgSpecHash": "KA0Na65SZ70ToGmcpF1c4BpKrXekybzqUA1nADKFzJHvDn5rryc8O1M8JLI6ZOQkl88yBn68oB/WIixS2wgJUA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Mefido\\Code\\MefidoServices\\MefidoServices.csproj",
+  "projectFilePath": "D:\\Projects\\Mefido\\Services\\MefidoServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrraj\\.nuget\\packages\\json.net\\1.0.23\\json.net.1.0.23.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

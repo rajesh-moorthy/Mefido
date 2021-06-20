@@ -11,15 +11,15 @@ namespace MefidoServices.Models
         [Key]
         public Int32 CityId { get; set; }
 
-        public string CountryCode { get; set; }
+        public Int32 CountryId { get; set; }
+
+        public Int32 StateId { get; set; }
        
         public string PostalCode { get; set; }
 
         public string Village { get; set; }
         
-        public string State { get; set; }
         
-        public string StateID { get; set; }
         
         public string CityName { get; set; }
         
@@ -31,6 +31,5 @@ namespace MefidoServices.Models
 
         public string Active { get; set; }
 
-        public Patient PatientCity { get; set; }
     }
 }

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:mefido/prescriptionpage.dart';
-//import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CaseNotePage extends StatefulWidget {
   @override
@@ -10,7 +9,6 @@ class CaseNotePage extends StatefulWidget {
 
 class _CaseNotePageState extends State<CaseNotePage> {
   TextEditingController caseNoteController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +21,17 @@ class _CaseNotePageState extends State<CaseNotePage> {
             child: ListView(
               children: <Widget>[
                 Text("Case Notes", textAlign: TextAlign.center),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: <Widget>[
+                    Expanded(
+                      child: Text("Case Notes", textAlign: TextAlign.center),
+                    ),
+                    Expanded(
+                      child: TextField(),
+                    )
+                  ],
+                ),
                 Container(
                   decoration: BoxDecoration(color: Colors.white),
                   padding: EdgeInsets.all(10.0),

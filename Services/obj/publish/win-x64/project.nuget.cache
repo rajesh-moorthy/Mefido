@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DD9I4d1UhiiWY+XdOnLLBBYN4Lcenv6loZ2c36+/bbsCh+dfINfwiBbDHgMIpSXPMHdmjPV0rHFPjlCRR0+KRQ==",
+  "dgSpecHash": "w+udvspVFBidhXq4fyU2hEdsTAAh486wyM7ZjZ5GyMaUFUCIIWq/qDN4vdX2BAZUP+P3tWdmcNS/7np9HQDJKw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Mefido\\Code\\MefidoServices\\MefidoServices.csproj",
+  "projectFilePath": "D:\\Projects\\Mefido\\Services\\MefidoServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrraj\\.nuget\\packages\\json.net\\1.0.23\\json.net.1.0.23.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -125,9 +125,9 @@
     "C:\\Users\\mrraj\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.10\\microsoft.netcore.app.runtime.win-x64.3.1.10.nupkg.sha512",
-    "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.10\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.10.nupkg.sha512",
-    "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.10\\microsoft.aspnetcore.app.runtime.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.13\\microsoft.netcore.app.runtime.win-x64.3.1.13.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.13\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.13.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.13\\microsoft.aspnetcore.app.runtime.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
 }

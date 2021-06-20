@@ -66,10 +66,15 @@ class _DashboardPageState extends State<DashboardPage> {
                 padding: EdgeInsets.all(8.0),
                 child: Icon(Icons.notifications),
               ),
-              Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Icon(Icons.more_vert),
+
+              IconButton(
+                icon: Image.asset('assets/images/mefido_fronticon.png'),
+                onPressed: () {},
               ),
+              // Padding(
+              //   padding: EdgeInsets.all(8.0),
+              //   child: Icon(Icons.more_vert),
+              // ),
             ],
           ),
           body: Padding(

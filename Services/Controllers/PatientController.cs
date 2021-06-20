@@ -25,14 +25,11 @@ namespace MefidoServices.Controllers
                           {
                               PatientId = s.PatientId,
                               FirstName = s.FirstName,
-                              MiddleName = s.MiddleName,
                               LastName = s.LastName,
                               Address = s.Address,
                               CityId = s.CityId,
                               CityName = c.Village,
-                              StateId = c.StateID,
-                              StateName = c.State,
-                              MobileNumber = s.MobileNumber,
+                                                           MobileNumber = s.MobileNumber,
                               EmailId = s.EmailId,
                               PatientPhoto = s.PatientPhoto
                           };
@@ -52,13 +49,11 @@ namespace MefidoServices.Controllers
                           {
                               PatientId = s.PatientId,
                               FirstName = s.FirstName,
-                              MiddleName = s.MiddleName,
                               LastName = s.LastName,
                               Address = s.Address,
                               CityId = s.CityId,
                               CityName = c.Village,
-                              StateId = c.StateID,
-                              StateName = c.State,
+                             
                               MobileNumber = s.MobileNumber,
                               EmailId = s.EmailId,
                               PatientPhoto = s.PatientPhoto
@@ -79,13 +74,11 @@ namespace MefidoServices.Controllers
                           {
                               PatientId = s.PatientId,
                               FirstName = s.FirstName,
-                              MiddleName = s.MiddleName,
                               LastName = s.LastName,
                               Address = s.Address,
                               CityId = s.CityId,
                               CityName = c.Village,
-                              StateId = c.StateID,
-                              StateName = c.State,
+                             
                               MobileNumber = s.MobileNumber,
                               EmailId = s.EmailId,
                               PatientPhoto = s.PatientPhoto
@@ -106,13 +99,11 @@ namespace MefidoServices.Controllers
                           {
                               PatientId = s.PatientId,
                               FirstName = s.FirstName,
-                              MiddleName = s.MiddleName,
                               LastName = s.LastName,
                               Address = s.Address,
                               CityId = s.CityId,
                               CityName = c.Village,
-                              StateId = c.StateID,
-                              StateName = c.State,
+                          
                               MobileNumber = s.MobileNumber,
                               EmailId = s.EmailId,
                               PatientPhoto = s.PatientPhoto
@@ -160,7 +151,7 @@ namespace MefidoServices.Controllers
         public int? CityId { get; set; }
 
         public string CityName { get; set; }
-        public string StateId { get; set; }
+        public int StateId { get; set; }
 
         public string StateName { get; set; }
         public string MobileNumber { get; set; }

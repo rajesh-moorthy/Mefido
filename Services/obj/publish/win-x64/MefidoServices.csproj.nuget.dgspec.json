@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Mefido\\Code\\MefidoServices\\MefidoServices.csproj": {}
+    "D:\\Projects\\Mefido\\Services\\MefidoServices.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Mefido\\Code\\MefidoServices\\MefidoServices.csproj": {
+    "D:\\Projects\\Mefido\\Services\\MefidoServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Mefido\\Code\\MefidoServices\\MefidoServices.csproj",
+        "projectUniqueName": "D:\\Projects\\Mefido\\Services\\MefidoServices.csproj",
         "projectName": "MefidoServices",
-        "projectPath": "D:\\Projects\\Mefido\\Code\\MefidoServices\\MefidoServices.csproj",
+        "projectPath": "D:\\Projects\\Mefido\\Services\\MefidoServices.csproj",
         "packagesPath": "C:\\Users\\mrraj\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Mefido\\Code\\MefidoServices\\obj\\publish\\win-x64\\",
+        "outputPath": "D:\\Projects\\Mefido\\Services\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\mrraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,15 +86,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[3.1.10, 3.1.10]"
+              "version": "[3.1.13, 3.1.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[3.1.10, 3.1.10]"
+              "version": "[3.1.13, 3.1.13]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[3.1.10, 3.1.10]"
+              "version": "[3.1.13, 3.1.13]"
             }
           ],
           "frameworkReferences": {
@@ -105,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
